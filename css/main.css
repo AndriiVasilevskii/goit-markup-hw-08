@@ -175,6 +175,7 @@ header {
 
 @media screen and (max-width: 767px) {
   .navigation {
+    position: absolute;
     display: none;
     position: absolute;
     top: 0;
@@ -200,6 +201,7 @@ header {
 }
 
 .navigation__list {
+  position: relative;
   padding-top: 48px;
   padding-left: 40px;
   font-family: Roboto;
@@ -1778,6 +1780,7 @@ footer {
 }
 
 .project-card {
+  margin-bottom: 30px;
   width: 100%;
   overflow: hidden;
   -webkit-transition-property: -webkit-box-shadow;
@@ -1791,6 +1794,7 @@ footer {
 }
 
 .project-card:not(:last-child) {
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -1837,9 +1841,14 @@ footer {
 }
 
 .project-card__image-text-wrapper {
+  padding-bottom: 30px;
   width: 100%;
   position: relative;
   overflow: hidden;
+}
+
+.project-card__image {
+  display: block;
 }
 
 .project-card__text {

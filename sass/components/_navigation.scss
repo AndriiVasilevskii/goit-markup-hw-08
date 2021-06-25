@@ -1,5 +1,10 @@
+
+
+
+
 .navigation {
   @media screen and (max-width: 767px) {
+    position: absolute;
     display: none;
     position: absolute;
     top: 0;
@@ -22,6 +27,7 @@
 }
 
 .navigation__list {
+  position: relative;
   padding-top: 48px;
   padding-left: 40px;
 
