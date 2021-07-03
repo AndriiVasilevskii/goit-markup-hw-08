@@ -1,18 +1,30 @@
-@import './utils/variables';
-@import './base/common';
-@import './components/logo';
-@import './components/header';
-@import './components/navigation';
-@import './components/contacts';
-@import './components/social-list';
-@import './components/btn-mobile-menu';
-@import './components/hero';
-@import './components/btn-reserved';
-@import './components/features';
-@import './components/what-we-do';
-@import './components/our-team';
-@import './components/regular-customers';
-@import './components/footer';
-@import './components/modal';
-@import './components/btn-submit';
-@import './components/portfolio';
+// UTILS
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+// BASE
+@import "./base/base";
+@import "./base/section";
+@import "./base/container";
+
+// COMPONENTS
+@import "./components/mobile-menu";
+@import "./components/section-title";
+@import "./components/social-icons";
+@import "./components/backdrop";
+@import "./components/modal-window";
+@import "./components/modal-btn";
+@import "./components/modal-form";
+
+//LAYOUT
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/whyus";
+@import "./layout/whatwedo";
+@import "./layout/aboutus";
+@import "./layout/regular-customers";
+@import "./layout/footer";
+
+// PORTFOLIO
+@import "./layout/hero-portfolio";
+@import "./layout/work-examples";
