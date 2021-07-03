@@ -6,12 +6,12 @@
   background-color: transparent;
   z-index: 999;
   position: absolute;
-  top: 22px;
+  top: 20px;
   right: 15px;
 
   @media screen and (min-width: $tablet) {
     display: none;
-    top: 22px;
+    top: 20px;
     right: 30px;
   }
 }

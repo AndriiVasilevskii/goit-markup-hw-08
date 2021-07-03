@@ -20,7 +20,11 @@
       overflow-y: scroll;
       z-index: 100;
     }
+    &.is-open .contacts {
+      // position: absolute;
+    }
   }
+
   @media screen and (min-width: $tablet) {
     display: flex;
   }
